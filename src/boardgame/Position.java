@@ -1,10 +1,10 @@
 package boardgame;
 
 public class Position {
-	private Integer row;
-	private Integer column;
+	private int row;
+	private int column;
 	
-	public Position(Integer row, Integer column) {
+	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
@@ -13,7 +13,7 @@ public class Position {
 		return row;
 	}
 
-	public void setRow(Integer row) {
+	public void setRow(int row) {
 		this.row = row;
 	}
 
@@ -21,7 +21,7 @@ public class Position {
 		return column;
 	}
 
-	public void setColumn(Integer column) {
+	public void setColumn(int column) {
 		this.column = column;
 	}
 	
